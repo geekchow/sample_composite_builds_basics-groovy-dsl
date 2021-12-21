@@ -69,3 +69,13 @@ gradle run
 ```
 
 We are working on a mechanism to permit tasks in included builds to be referred to directly on the command line. Stay tuned!
+
+
+Build the app
+
+```
+./gradlew :my-app:app:build 
+```
+
+references
+https://docs.gradle.org/current/samples/sample_composite_builds_basics.html
