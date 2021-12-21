@@ -79,6 +79,16 @@ We are working on a mechanism to permit tasks in included builds to be referred 
 
 # the built application
 /my-app/app/build/distributions/app-1.0
+
+# tree output
+# ├── bin
+# │   ├── app
+# │   └── app.bat
+# └── lib
+#     ├── app-1.0.jar
+#     ├── commons-lang3-3.4.jar
+#     ├── number-utils-1.0.jar
+#     └── string-utils-1.0.jar
 ```
 
 references  
